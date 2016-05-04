@@ -12,6 +12,16 @@
 // If you no longer want to use a dependency, remember
 // to also remove its path from "config.paths.watched".
 import "phoenix_html"
+import Vue from "vue"
+
+var data ={
+    message: "Hello Vue and Phoenix"
+}
+new Vue({
+    el: '#app',
+    data: data
+})
+
 
 // Import local files
 //
