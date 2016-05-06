@@ -1,9 +1,8 @@
 
     <div id="app">
 
-        <h1>  Vue !</h1>
+        <h1>  Vue JS </h1>
         <h2> Simple Vue template with Phoenix</h2>
-        <pre>
+          This is so much cleaner that aading the JS around there
             {{ message }}
-        </pre>
     </div>
