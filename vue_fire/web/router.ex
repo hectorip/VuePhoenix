@@ -20,7 +20,9 @@ defmodule VueFire.Router do
   end
 
   # Other scopes may use custom stacks.
-  # scope "/api", VueFire do
-  #   pipe_through :api
-  # end
+  scope "/api", VueFire do
+    pipe_through :api
+
+    get "/quotes", QuotesController, :quotes
+  end
 end
